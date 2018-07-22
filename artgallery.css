@@ -238,16 +238,15 @@ main img{
  width: 100%;
  overflow: auto;
  background-color: rgba(0, 0, 0, 0.5);
- display: none;
+ display:none;
  animation-name: modalopen;
  animation-duration: 1.5s;
 }
-#slideshowimage1,{
+#slideshowimage1{
   height: 100%;
   width:80%;
   text-align: center;
   margin: 5% 10% 0% 10%;
-  overflow-x: hidden;
 
 }
 .arrow-left{
@@ -278,7 +277,7 @@ main img{
 	padding-top: 30px;
 	padding-right: 50px;
 }
-.closeBtn:hover, .closeBtn:focus{
+.closeBtn:hover,.closeBtn:focus{
 	color: white;
 	text-decoration: none;
 	cursor: pointer;

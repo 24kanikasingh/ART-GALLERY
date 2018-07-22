@@ -26,12 +26,12 @@ function closeModal(){
 
 //Function to close the modal if outside click
 function clickOutside(e){
-	if(e.target === modal){
+	if(e.target == modal){
 	modal.style.display = 'none';
 }
 }
  //For slide show
-let sliderImages = document.querySelectorAll('#simpleModal'),
+/*let sliderImages = document.querySelectorAll('#slide'),
    arrowRight = document.querySelector('#arrowLeft'),
    arrowLeft = document.querySelector('#arrowRight'),
    current = 0;
@@ -76,4 +76,4 @@ let sliderImages = document.querySelectorAll('#simpleModal'),
        slideRight();
     });
 
-  startSlide();
+  startSlide();*/
