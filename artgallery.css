@@ -58,7 +58,6 @@ body{
   height: 70px;
   width: 100%;
   top:5em;
-
 }
 .navbar ul{
 	list-style-type: none;
@@ -294,4 +293,34 @@ main img{
 .image-2{
 	margin-left: 40px;
 	margin-right: 40px;
+}
+.contact{
+	background-color: #e6e6e6;
+	width: 100%;
+	position: absolute;
+	top:94.5em;
+
+}
+.contact h2{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: 90;
+	font-size: 40px;
+}
+.contact i{
+	font-size: 60px;
+	padding: 10px 10px 10px 50px; 
+	margin: 0px 10% 0px 10%;
+	color: #cc0052;
+}
+.contact h3{
+	margin:0px 10% 0px 10%;
+	padding: 10px 30px 10px 30px;
+	margin-left:10%;
+}
+.contact p
+{   
+	margin: 0px 5% 0px 5%;
+	padding: 0px 30px 0px 30px;
 }
