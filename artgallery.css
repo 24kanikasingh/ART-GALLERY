@@ -1,5 +1,5 @@
 body{
-	background-image: url('blurred-background-bokeh-business-1217327.jpg');
+	background-image: url('images/blurred-background-bokeh-business-1217327.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -90,6 +90,10 @@ body{
     float: left;
     position: relative;
 }
+#LOGO{
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
 .caption{
 	color: white;
 	font-weight: bold;
@@ -166,11 +170,12 @@ body{
 	.active{display: block;}
 }*/
 main{
-	background-color: black;
+	background: url('images/pattern.jpg');
 	width: 100%;
 	position: absolute;
 	top:29em;
 	margin-top: -4px;
+	scroll-behavior: smooth;
 }
 main h1{
 	text-align: center;
@@ -201,11 +206,10 @@ main img{
 	top:12em;
 }	
 .image-1 img{
-	height: 30%;
-	width: 30%;
+	
 	float: left;
 	border: 6px solid white;
-	margin:8% 20px 20px 10%;
+	margin:8% 25% 20px 25%;
 	transition: .5s;
 	filter: grayscale(100%);
 
@@ -286,4 +290,8 @@ main img{
 @keyframes modalopen{
 	from{opacity: 0}
 	to {opacity: 1}
+}
+.image-2{
+	margin-left: 40px;
+	margin-right: 40px;
 }
